@@ -1,20 +1,21 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from "expo-status-bar";
+import React from "react";
+import {
+  SafeAreaView,
+  StyleSheet,
+  TouchableOpacity,
+  Text,
+  View,
+} from "react-native";
+import Mensagens from "./src/screens/Mensagens.js";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <>
+      <StatusBar barStyle="light-content" />
+      {/* <Home /> */}
+      {/* <Sobre /> */}
+      <Mensagens />
+    </>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
