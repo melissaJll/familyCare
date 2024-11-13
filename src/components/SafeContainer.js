@@ -3,10 +3,6 @@ import { useFonts } from "expo-font";
 import { useCallback } from "react";
 
 export default function SafeContainer({ children }) {
-  const [fontsLoaded, fontError] = useFonts({
-    Montserrat: require("../../assets/fonts/Montserrat-Regular.ttf"),
-  });
-
   return (
     <SafeAreaView style={estilos.container} onLayout={aoAtualizarLayout}>
         {children}
