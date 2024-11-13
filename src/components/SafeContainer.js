@@ -4,7 +4,7 @@ import { useCallback } from "react";
 
 export default function SafeContainer({ children }) {
   return (
-    <SafeAreaView style={estilos.container} onLayout={aoAtualizarLayout}>
+    <SafeAreaView style={estilos.container}>
         {children}
     </SafeAreaView>
   );
