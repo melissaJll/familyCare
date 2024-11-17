@@ -15,7 +15,7 @@ import {
       <SafeContainer>
         <View style={styles.subcontainer}>
           <View style={styles.header}>
-            <Text style={styles.titulo}>Joana (Cuidadora)</Text>
+            <Text style={styles.titulo}>Joana</Text>
             <View style={styles.imageWrapper}>
               <Image
                 source={require("../../assets/images/avatar1.png")}

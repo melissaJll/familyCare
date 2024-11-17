@@ -2,7 +2,6 @@ import {
     Image,
     StyleSheet,
     Text,
-    TouchableOpacity,
     View,
     FlatList,
     Pressable,
@@ -15,7 +14,7 @@ import {
   const contatos = [
     {
       id: "1",
-      nome: "Maria",
+      nome: "Joana",
       ultimaMensagem: "Bom dia, já estou a caminho",
       foto: require("../../assets/images/avatar1.png"),
     },
@@ -23,7 +22,7 @@ import {
       id: "2",
       nome: "Suporte",
       ultimaMensagem: "Se precisar de mais alguma coisa estamos semp...",
-      foto: require("../../assets/images/avatar1.png"),
+      foto: require("../../assets/images/Services.png"),
     },
     {
       id: "3",

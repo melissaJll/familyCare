@@ -12,7 +12,7 @@ export default function Calendario({ navigation }) {
 
   const handleIrParaRelatorio = () => {
     if (selectedDate) {
-      navigation.navigate('CriarRelatorio', { data: selectedDate });
+      navigation.navigate('AvaliarRelatorio', { data: selectedDate });
     } else {
       alert("Por favor, selecione uma data.");
     }

@@ -12,7 +12,7 @@ export default function Home({ navigation }) {
     <SafeContainer>
       <View style={styles.subcontainer}>
         <View style={styles.header}>
-          <Text style={styles.titulo}>Home</Text>
+          <Text style={styles.titulo}>FamilyCare</Text>
           <Pressable>
             <FontAwesome name="bell" size={24} color="#4581D0" />
           </Pressable>
@@ -33,6 +33,9 @@ export default function Home({ navigation }) {
           </Pressable>
           <Pressable style={styles.button} >
             <Text style={styles.buttonText} onPress={() => handleNavigation("CriarRelatorio")}>Relatório</Text>
+          </Pressable>
+          <Pressable style={styles.button} >
+            <Text style={styles.buttonText} onPress={() => handleNavigation("AvaliarRelatorio")}>Avaliar</Text>
           </Pressable>
  
         </View>
